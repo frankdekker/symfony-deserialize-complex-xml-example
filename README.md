@@ -1,6 +1,6 @@
 ## Summary
 
-Example to show how to deserialize nested array of objects. Take note of the `@SerializedName` that _should_ be the element name in the xml.
+Example to show how to deserialize nested array of objects. Take note of the `@SerializedName` in the `Boss`-class that _should_ be the element name in the xml.
 
 ### How to run
 ```shell
