@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<boss>
+    <bossname>Big main boss</bossname>
+    <npc>
+        <id>1</id>
+        <name>Skeleton</name>
+        <urlSlug>dungeon-skeleton</urlSlug>
+        <creatureDisplayId>5</creatureDisplayId>
+    </npc>
+    <npc>
+        <id>2</id>
+        <name>Mage</name>
+        <urlSlug>dungeon-mage</urlSlug>
+        <creatureDisplayId>6</creatureDisplayId>
+    </npc>
+</boss>

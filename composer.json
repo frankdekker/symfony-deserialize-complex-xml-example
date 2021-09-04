@@ -1,0 +1,31 @@
+{
+    "name": "frankdekker/symfony-deserialize-complex-xml-example",
+    "description": "An example xml to object deserializer",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true,
+        "process-timeout": 0,
+        "platform": {
+            "php": "7.4.10"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "FD\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.10",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-intl": "*",
+        "doctrine/annotations": "^1.13",
+        "symfony/property-access": "^5.3",
+        "symfony/serializer": "^5.3"
+    },
+    "scripts": {
+        "test": "@php bin/console.php"
+    }
+}
