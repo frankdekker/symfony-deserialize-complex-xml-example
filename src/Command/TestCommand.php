@@ -29,7 +29,7 @@ class TestCommand
             [
                 // array denormalizer to be able to handle Npc[] attribute
                 new ArrayDenormalizer(),
-                // create object denormalizer to map the xml data to the models
+                // create object denormalizer to map the data to the models
                 new ObjectNormalizer($metaDataFactory, $nameConverter, null, new ReflectionExtractor())
             ],
 
