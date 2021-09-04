@@ -7,6 +7,11 @@ use Symfony\Component\Serializer\Annotation\SerializedName;
 
 class Npc
 {
+    /**
+     * The @ indicates the value will be read from the xml attribute
+     *
+     * @SerializedName("@id")
+     */
     public int    $id;
     public string $name;
     /**
