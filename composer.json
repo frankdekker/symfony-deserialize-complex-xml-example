@@ -1,6 +1,7 @@
 {
     "name": "frankdekker/symfony-deserialize-complex-xml-example",
     "description": "An example xml to object deserializer",
+    "keywords": ["symfony", "serializer", "xml", "deserialize", "nested objects", "attributes"],
     "type": "project",
     "license": "MIT",
     "minimum-stability": "stable",
