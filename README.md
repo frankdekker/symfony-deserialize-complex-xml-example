@@ -12,17 +12,15 @@ Input:
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <boss>
-    <bossname>Big main boss</bossname>
-    <npc>
-        <id>1</id>
+    <boss_name>Big main boss</boss_name>
+    <npc id="1">
         <name>Skeleton</name>
-        <urlSlug>dungeon-skeleton</urlSlug>
+        <url_slug>dungeon-skeleton</url_slug>
         <creatureDisplayId>5</creatureDisplayId>
     </npc>
-    <npc>
-        <id>2</id>
+    <npc id="2">
         <name>Mage</name>
-        <urlSlug>dungeon-mage</urlSlug>
+        <url_slug>dungeon-mage</url_slug>
         <creatureDisplayId>6</creatureDisplayId>
     </npc>
 </boss>
